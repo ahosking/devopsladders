@@ -129,3 +129,10 @@ dmypy.json
 .pyre/
 
 .DS_Store
+
+# Jekyll and related
+_site
+.jekyll-cache
+.parcel-cache
+.sass-cache
+node_modules
