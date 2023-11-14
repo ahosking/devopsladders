@@ -1,3 +1,7 @@
-theme: jekyll-theme-cayman
-title: Engineering Ladders
-description: A framework for Engineering Managers
+title: DevOps Ladders
+
+# Build settings
+markdown: kramdown
+remote_theme: Bilal2453/cayman-docs
+plugins:
+  - jekyll-remote-theme
