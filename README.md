@@ -1,8 +1,12 @@
+---
+layout: default
+---
+
 # Introduction
 
-This framework allows software engineering managers to have meaningful conversations with their direct reports around the expectations of each position and how to plan for the next level in their career ladder.
+This framework allows aspiring and existing DevOps, SRE and Cloud Engineers to have meaningful conversations around the expectations of each position and how to plan for the next level in their career ladder.
 
-Although the framework uses roles and levels that are somewhat standard in the US tech industry, every company is different. Please use the information provided as a baseline and feel free adjust it to your needs.
+Although the framework uses roles and levels that are somewhat standard in the western tech industry, every company is different. Please use the information provided as a baseline and feel free adjust it to your needs.
 
 The framework relies heavily on radar charts to visually represent the different perspectives and expectations of a given position:
 
@@ -14,39 +18,39 @@ The framework relies heavily on radar charts to visually represent the different
 
 # Career Ladders
 
-The framework has 4 different ladders:
+The framework has 3 different ladders:
 
-* [**Developer**](Developer.md): role also known as programmer or software engineer, requires a deep level of technical expertise
-* [**Tech Lead**](TechLead.md): role also known as dev lead, is the owner of the system and requires a unique balance between hands-on development, architecture knowledge and production support
-* [**Technical Program Manager**](TechnicalProgramManager.md): role responsible for coordinating and driving to completion initiatives that span multiple teams
-* [**Engineering Manager**](EngineeringManager.md): role also known as dev manager, is responsible for the consistent delivery, career growth and level of happiness of the team
+- [**DevOps**](DevOps): role, also known as Development Operations Engineer or DevOps Engineer, is often responsible for building out system infrastructure and the methods for which software is delivered to the infrastructure
+- [**SRE**](SRE): role also known as Site Reliability Engineer or Service Reliability Engineer, is the owner of the system and requires a unique balance between hands-on development, architecture knowledge and production support. SRE's will often dive into application code to make them more reliable.
+- [**Cloud Engineer**](CloudEngineer): role, is responsible for the consistent delivery, reliability and availability of Cloud infrastructure
 
-If you are confused about the difference between a [Tech Lead](TechLead.md) and an [Engineering Manager](EngineeringManager.md), please refer to the [Tech Lead vs Engineering Manager](TechLead-EngineeringManager.md) page for a detailed comparison.
+If you are confused about the difference between a [Tech Lead](TechLead.md) and an [Engineering Manager](EngineeringManager.md), please refer to the [Tech Lead vs Engineering Manager](TechLead-EngineeringManager) page for a detailed comparison.
 
-| Level | Senior | [Developer](Developer.md) | [Tech Lead](TechLead.md) | [Technical Program Manager](TechnicalProgramManager.md) | [Engineering Manager](EngineeringManager.md) |
-| :---: | :---: | :---: | :---: | :---: |  :---: |
-| 1 | No | [D1](Developer.md#d1---developer-1) | | | |
-| 2 | No | [D2](Developer.md#d2---developer-2) | | | |
-| 3 | No | [D3](Developer.md#d3---developer-3) | | | |
-| 4 | Yes | [D4](Developer.md#d4---developer-4) | [TL4](TechLead.md#tl4---tech-lead-4) | [TPM4](TechnicalProgramManager.md#tpm4---technical-program-manager-4) | |
-| 5 | Yes | [D5](Developer.md#d5---developer-5) | [TL5](TechLead.md#tl5---tech-lead-5) | [TPM5](TechnicalProgramManager.md#tpm5---technical-program-manager-5) | [EM5](EngineeringManager.md#em5---engineering-manager-5) |
-| 6 | Yes | [D6](Developer.md#d6---developer-6) | [TL6](TechLead.md#tl6---tech-lead-6) | [TPM6](TechnicalProgramManager.md#tpm6---technical-program-manager-6) | [EM6](EngineeringManager.md#em6---engineering-manager-6) |
-| 7 | Yes | [D7](Developer.md#d7---developer-7) | [TL7](TechLead.md#tl7---tech-lead-7) | [TPM7](TechnicalProgramManager.md#tpm7---technical-program-manager-7) | [EM7](EngineeringManager.md#em7---engineering-manager-7) |
+| Level | Senior |      [Developer](Developer.md)      |       [Tech Lead](TechLead.md)       |        [Technical Program Manager](TechnicalProgramManager.md)        |       [Engineering Manager](EngineeringManager.md)       |
+| :---: | :----: | :---------------------------------: | :----------------------------------: | :-------------------------------------------------------------------: | :------------------------------------------------------: |
+|   1   |   No   | [D1](Developer.md#d1---developer-1) |                                      |                                                                       |                                                          |
+|   2   |   No   | [D2](Developer.md#d2---developer-2) |                                      |                                                                       |                                                          |
+|   3   |   No   | [D3](Developer.md#d3---developer-3) |                                      |                                                                       |                                                          |
+|   4   |  Yes   | [D4](Developer.md#d4---developer-4) | [TL4](TechLead.md#tl4---tech-lead-4) | [TPM4](TechnicalProgramManager.md#tpm4---technical-program-manager-4) |                                                          |
+|   5   |  Yes   | [D5](Developer.md#d5---developer-5) | [TL5](TechLead.md#tl5---tech-lead-5) | [TPM5](TechnicalProgramManager.md#tpm5---technical-program-manager-5) | [EM5](EngineeringManager.md#em5---engineering-manager-5) |
+|   6   |  Yes   | [D6](Developer.md#d6---developer-6) | [TL6](TechLead.md#tl6---tech-lead-6) | [TPM6](TechnicalProgramManager.md#tpm6---technical-program-manager-6) | [EM6](EngineeringManager.md#em6---engineering-manager-6) |
+|   7   |  Yes   | [D7](Developer.md#d7---developer-7) | [TL7](TechLead.md#tl7---tech-lead-7) | [TPM7](TechnicalProgramManager.md#tpm7---technical-program-manager-7) | [EM7](EngineeringManager.md#em7---engineering-manager-7) |
 
 (click on position name for more details)
 
 # Axes
 
 The chart shown above has the following 5 axes:
-* **Technology**: knowledge of the tech stack and tools
-* **System**: level of ownership of the system(s)
-* **People**: relationship with the team(s)
-* **Process**: level of engagement with the development process
-* **Influence**: scope of influence of the position
 
-The **influence** axis can be seen as a *different dimension* since it is orthogonal and applies to all the other axes.
+- **Technology**: knowledge of the tech stack and tools
+- **System**: level of ownership of the system(s)
+- **People**: relationship with the team(s)
+- **Process**: level of engagement with the development process
+- **Influence**: scope of influence of the position
 
-Each axis has 5 different levels of performance. It is important to highlight that every level includes the previous one(s). For example, someone that *evangelizes* technology, *specializes* and *adopts* it as well.
+The **influence** axis can be seen as a _different dimension_ since it is orthogonal and applies to all the other axes.
+
+Each axis has 5 different levels of performance. It is important to highlight that every level includes the previous one(s). For example, someone that _evangelizes_ technology, _specializes_ and _adopts_ it as well.
 
 Keep reading to better understand each level.
 
@@ -104,14 +108,15 @@ Since the framework is open source, you have the opportunity to adapt it to your
 
 **When is a person ready to move to the next level?**
 
-Companies usually expect a person to be performing at the next level *consistently for several months* before formalizing a promotion.
+Companies usually expect a person to be performing at the next level _consistently for several months_ before formalizing a promotion.
 
 **How do I collect evidence to support the discussion with my direct reports?**
 
 Different teams collect evidence in different ways. A recommended approach is to use a combination of:
-* 1:1 conversations
-* Feedback from peers and other teams
-* Self-evaluation
+
+- 1:1 conversations
+- Feedback from peers and other teams
+- Self-evaluation
 
 **Could the framework provide more specific examples of behavior to support each level?**
 
@@ -123,15 +128,17 @@ Levels 8 and above vary drastically from company to company. Organizations of di
 
 **Do you have any additional resources about the topic?**
 
-* [The Manager's Path](http://shop.oreilly.com/product/0636920056843.do): Camille Fournier does an excellent job at describing the expectations and challenges of many engineering positions. Also, she provides good advice about writing a career ladder in chapter 9.
+- [The Manager's Path](http://shop.oreilly.com/product/0636920056843.do): Camille Fournier does an excellent job at describing the expectations and challenges of many engineering positions. Also, she provides good advice about writing a career ladder in chapter 9.
 
-* [How to Be Good at Performance Appraisals](https://store.hbr.org/product/how-to-be-good-at-performance-appraisals-simple-effective-done-right/10295): Dick Grote explains in simple terms how to define job responsibilities and how to evaluate performance (results and behaviors).
+- [How to Be Good at Performance Appraisals](https://store.hbr.org/product/how-to-be-good-at-performance-appraisals-simple-effective-done-right/10295): Dick Grote explains in simple terms how to define job responsibilities and how to evaluate performance (results and behaviors).
 
 # Other Pages
 
-* [**Developer**](Developer.md)
-* [**Tech Lead**](TechLead.md)
-* [**Technical Program Manager**](TechnicalProgramManager.md)
-* [**Engineering Manager**](EngineeringManager.md)
-* [**Tech Lead vs Engineering Manager**](TechLead-EngineeringManager.md)
-* [**Managing Managers**](Managing-Managers.md)
+- [**Developer**](Developer)
+- [**Tech Lead**](TechLead)
+- [**Technical Program Manager**](TechnicalProgramManager)
+- [**Engineering Manager**](EngineeringManager)
+- [**Tech Lead vs Engineering Manager**](TechLead-EngineeringManager)
+- [**Managing Managers**](Managing-Managers)
+
+---
