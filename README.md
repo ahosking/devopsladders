@@ -24,17 +24,18 @@ The framework has 3 different ladders:
 - [**SRE**](SRE): role also known as Site Reliability Engineer or Service Reliability Engineer, is the owner of the system and requires a unique balance between hands-on development, architecture knowledge and production support. SRE's will often dive into application code to make them more reliable.
 - [**Cloud Engineer**](CloudEngineer): role, is responsible for the consistent delivery, reliability and availability of Cloud infrastructure
 
-If you are confused about the difference between a [Tech Lead](TechLead.md) and an [Engineering Manager](EngineeringManager.md), please refer to the [Tech Lead vs Engineering Manager](TechLead-EngineeringManager) page for a detailed comparison.
 
-| Level | Senior |      [Developer](Developer.md)      |       [Tech Lead](TechLead.md)       |        [Technical Program Manager](TechnicalProgramManager.md)        |       [Engineering Manager](EngineeringManager.md)       |
-| :---: | :----: | :---------------------------------: | :----------------------------------: | :-------------------------------------------------------------------: | :------------------------------------------------------: |
-|   1   |   No   | [D1](Developer.md#d1---developer-1) |                                      |                                                                       |                                                          |
-|   2   |   No   | [D2](Developer.md#d2---developer-2) |                                      |                                                                       |                                                          |
-|   3   |   No   | [D3](Developer.md#d3---developer-3) |                                      |                                                                       |                                                          |
-|   4   |  Yes   | [D4](Developer.md#d4---developer-4) | [TL4](TechLead.md#tl4---tech-lead-4) | [TPM4](TechnicalProgramManager.md#tpm4---technical-program-manager-4) |                                                          |
-|   5   |  Yes   | [D5](Developer.md#d5---developer-5) | [TL5](TechLead.md#tl5---tech-lead-5) | [TPM5](TechnicalProgramManager.md#tpm5---technical-program-manager-5) | [EM5](EngineeringManager.md#em5---engineering-manager-5) |
-|   6   |  Yes   | [D6](Developer.md#d6---developer-6) | [TL6](TechLead.md#tl6---tech-lead-6) | [TPM6](TechnicalProgramManager.md#tpm6---technical-program-manager-6) | [EM6](EngineeringManager.md#em6---engineering-manager-6) |
-|   7   |  Yes   | [D7](Developer.md#d7---developer-7) | [TL7](TechLead.md#tl7---tech-lead-7) | [TPM7](TechnicalProgramManager.md#tpm7---technical-program-manager-7) | [EM7](EngineeringManager.md#em7---engineering-manager-7) |
+| Level | Senior |      [Devops](devops.md)      |       [SRE](sre.md)       |        [Cloud Engineer](cloud_engineering.md)        |
+| :---: | :----: | :---------------------------------: | :----------------------------------: | :-------------------------------------------------------------------: | 
+|   1   |   No   | [Junior 1](devops.md#d1---developer-1) |                                      |                                                                       |                                                          |
+|   2   |   No   | [Junior 2](Developer.md#d2---developer-2) |                                      |                                                                       |                                                          |
+|   3   |   No   | [Junior 3](Developer.md#d3---developer-3) |                                      |                                                                       |                                                          |
+|   4   |  No   | [Intermediate 1](Developer.md#d4---developer-4) | [TL4](TechLead.md#tl4---tech-lead-4) | [TPM4](TechnicalProgramManager.md#tpm4---technical-program-manager-4) |                                                          |
+|   5   |  No  | [Intermediate 2](Developer.md#d5---developer-5) | [TL5](TechLead.md#tl5---tech-lead-5) | [TPM5](TechnicalProgramManager.md#tpm5---technical-program-manager-5) | [EM5](EngineeringManager.md#em5---engineering-manager-5) |
+|   6   |  No   | [Intermediate 3](Developer.md#d6---developer-6) | [TL6](TechLead.md#tl6---tech-lead-6) | [TPM6](TechnicalProgramManager.md#tpm6---technical-program-manager-6) | [EM6](EngineeringManager.md#em6---engineering-manager-6) |
+|   7   |  Yes   | [Senior 1](Developer.md#d7---developer-7) | [TL7](TechLead.md#tl7---tech-lead-7) | [TPM7](TechnicalProgramManager.md#tpm7---technical-program-manager-7) | [EM7](EngineeringManager.md#em7---engineering-manager-7) |
+|   8   |  Yes   | [Senior 2](Developer.md#d7---developer-7) | [TL7](TechLead.md#tl7---tech-lead-7) | [TPM7](TechnicalProgramManager.md#tpm7---technical-program-manager-7) | [EM7](EngineeringManager.md#em7---engineering-manager-7) |
+|   9   |  Yes   | [Senior 2](Developer.md#d7---developer-7) | [TL7](TechLead.md#tl7---tech-lead-7) | [TPM7](TechnicalProgramManager.md#tpm7---technical-program-manager-7) | [EM7](EngineeringManager.md#em7---engineering-manager-7) |
 
 (click on position name for more details)
 

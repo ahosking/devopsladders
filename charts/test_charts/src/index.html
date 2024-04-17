@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html>
+<head>
+   <meta charset- "UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>chart.js</title>
+</head>
+<body>
+   <canvas id="chartId" aria-label="chart" height="350" width="580"></canvas>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.1/chart.min.js"></script>
+   <script>
+      var chrt = document.getElementById("chartId").getContext("2d");
+      var chartId = new Chart(chrt, {
+         type: 'radar',
+         data: {
+            labels: ["Influence", "Technology", "System", "People", "Process"],
+            datasets: [{
+               label: "DevOps Level 1",
+               data: [10, 10, 10, 10, 10],
+               backgroundColor: [rgba(0,0,0,0.1)],
+               pointBackgroundColor: ['yellow', 'aqua', 'pink', 'lightgreen', 'lightblue'],
+               borderColor: ['black'],
+               borderWidth: 1,
+               pointRadius: 3,
+            }],
+         },
+         options: {
+            responsive: false,
+            elements: {
+               line: {
+                  borderWidth: 3
+               }
+            }
+         },
+      });
+   </script>
+</body>
+</html>

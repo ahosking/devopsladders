@@ -1,8 +1,4 @@
----
-layout: page
-title: DevOps
-permalink: /devops/
----
+# DevOps
 
 # What is DevOps?
 
